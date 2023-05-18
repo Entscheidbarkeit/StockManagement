@@ -16,66 +16,24 @@ in Utils many repeated used functions are implemented. eg. Interger input and va
 the beginning menue looks like :
 
 
-Aid Management System
-Date: 2022/03/31
-Data file: No file
----------------------------------
-1- List Items
-2- Add Item
-3- Remove Item
-4- Update Quantity
-5- Sort
-6- Ship Items
-7- New/Open Aid Database
----------------------------------
-0- Exit
+![image](https://github.com/Entscheidbarkeit/StockManagement/assets/119282401/ef06341c-a6db-43a9-b5f4-09741ec2558e)
+
 
 user must input an file name to load data. here we use "data.dat" as input
 (on no file loaded, the system will prompt the user to input a data name,and the menu will be regenerated and nothing will be done no matter what option is chosen)
-> 2
 
-****New/Open Aid Database****
-Enter file name: data.dat
-6 records loaded!
 
-Aid Management System
-Date: 2022/03/31
-Data file: data.dat
----------------------------------
-1- List Items
-2- Add Item
-3- Remove Item
-4- Update Quantity
-5- Sort
-6- Ship Items
-7- New/Open Aid Database
----------------------------------
-0- Exit
+![image](https://github.com/Entscheidbarkeit/StockManagement/assets/119282401/08b778df-5fc3-47a9-b528-77fdf6f677eb)
+
 
 then the user can chose different funtionality given. 
 by 1 , the user can check all the product information
 
-> 1
-
-****List Items****
- ROW |  SKU  | Description                         | Have | Need |  Price  | Expiry
------+-------+-------------------------------------+------+------+---------+-----------
-   1 | 12113 | Hydrogen peroxide 100ml bottles     |  300 |  300 |    3.99 |*2023/11/11
-   2 | 45678 | Sleeping Bags                       |  100 |  200 |   65.66 |
-   3 | 56789 | Tents and Blankets and pillows Tent | 2000 | 2000 |   65.66 |
-   4 | 44444 | Flash lights                        |  399 |  400 |   65.66 |
-   5 | 12345 | Baby Formula                        |  145 |  200 |   33.99 | 2022/12/12
-   6 | 11223 | Enfamil A+                          |   38 |   38 |   38.99 |*2022/11/11
------+-------+-------------------------------------+------+------+---------+-----------
-Enter row number to display details or <ENTER> to continue:
+![image](https://github.com/Entscheidbarkeit/StockManagement/assets/119282401/30ec88b2-5c32-4b6e-a071-cd2960549a52)
 
 by further input of row number, the detail of chose product will be printed
-> 2
-AMA Item:
-45678: Sleeping Bags
-Quantity Needed: 200
-Quantity Available: 100
-Unit Price: $65.66
+
+![image](https://github.com/Entscheidbarkeit/StockManagement/assets/119282401/64f76a33-7ee5-416b-9442-e5d9daea38b9)
   
 user can also add new product with all the information or delete an product with given sku or instructions
   
